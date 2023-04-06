@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+
+body{font-family: Arial, Helvetica, sans-serif;}
+
 .cabecalho {background-color: rgb(44, 5, 136);
 color: rgb(237, 238, 241);
 display: flex;
@@ -52,3 +56,15 @@ padding: 24px 0;}
 .estudante-div {
     text-align:center;
 }
+
+
+.alunos-titulo
+{
+text-align: center;
+padding: 50px 0;
+}
+
+.estudante-todos {
+  display: grid;  
+  grid-template-columns: 25% 25% 25% 25%;
+  }
